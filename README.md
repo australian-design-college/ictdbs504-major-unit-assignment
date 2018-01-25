@@ -16,5 +16,5 @@ To start the development docker container:
       -e MYSQL_ROOT_PASSWORD=password \
       -e MYSQL_USER=ictdbs504-dev \
       -e MYSQL_PASSWORD=password \
-      -e MYSQL_DATABASE=ictdbs504_users \
+      -e MYSQL_DATABASE=ictdbs504_todos \
       -d mysql:5.7.20
