@@ -13,7 +13,6 @@ To start the development docker container:
     docker run \
       -p 0.0.0.0:18002:3306 \
       --name ictdbs504-db \
-      -v $(pwd)/ictdbs504-db:/etc/mysql/conf.d \
       -e MYSQL_ROOT_PASSWORD=password \
       -e MYSQL_USER=ictdbs504-dev \
       -e MYSQL_PASSWORD=password \
