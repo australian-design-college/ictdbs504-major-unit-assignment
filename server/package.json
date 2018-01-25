@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js --ignore 'src/fakedb/todos.json'"
+  },
+  "engines": {
+    "node": "8.9.0",
+    "npm": "5.5.1"
+  },
+  "author": "Australian Design College",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-module-resolver": "~2.7.1",
+    "babel-polyfill": "~6.26.0",
+    "babel-preset-env": "~1.6.1",
+    "babel-preset-stage-3": "~6.24.1",
+    "babel-register": "~6.26.0",
+    "body-parser": "~1.18.2",
+    "cors": "~2.8.4",
+    "express": "~4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "~1.14.11"
+  }
+}
