@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { getTodos } from "api/todos";
+import { getTodos } from "@root/api/todos";
 
 import AddTodo from "./AddTodo";
 import s from "./Root.scss";

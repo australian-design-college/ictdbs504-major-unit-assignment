@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { addTodo } from "api/todos";
+import { addTodo } from "@root/api/todos";
 
 import Form from "./Form";
 
